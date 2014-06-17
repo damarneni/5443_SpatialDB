@@ -97,10 +97,10 @@
                          echo"// Construct the polygon.\n";
                          echo"PolyGon[{$i}] = new google.maps.Polygon({\n";
                                 echo"paths: PolygonCoords[{$i}],\n";
-                                echo"strokeColor: '#FF0000',\n";
+                                echo"strokeColor: '#<?=random_color()?>',\n";
                                 echo"strokeOpacity: 0.8,\n";
                                 echo"strokeWeight: 2,\n";
-                                echo"fillColor: '#FF0000',\n";
+                                echo"fillColor: '#<?=random_color()?>',\n";
                                 echo"fillOpacity: 0.35\n";
                          echo"});\n";
 
