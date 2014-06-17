@@ -1,4 +1,4 @@
-### Assignment 2
+### DB COnnection Test
 
 ### My PHP test code to connect Database
 
