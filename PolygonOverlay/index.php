@@ -1,3 +1,4 @@
+
 <?php 
 	include 'db_connect.php';
 	include 'functions.php';
@@ -67,7 +68,7 @@
 
                  var PolygonCoords = new Array();
 				 var PolyGon =new Array();
-
+				 
                  <?php
                  for($i=0;$i<sizeof($CoordsArray);$i++){
 
@@ -91,16 +92,17 @@
                                 $line++;
                          }
                          echo"];\n";
-
                          echo"PolygonCoords.push(Temp);\n";
 
                          echo"// Construct the polygon.\n";
                          echo"PolyGon[{$i}] = new google.maps.Polygon({\n";
                                 echo"paths: PolygonCoords[{$i}],\n";
-                                echo"strokeColor: '#<?=random_color()?>',\n";
+                                echo"strokeColor: '#";random_color();
+								echo"',\n";
                                 echo"strokeOpacity: 0.8,\n";
                                 echo"strokeWeight: 2,\n";
-                                echo"fillColor: '#<?=random_color()?>',\n";
+                                echo"fillColor: '#";random_color();
+								echo"',\n";
                                 echo"fillOpacity: 0.35\n";
                          echo"});\n";
 
