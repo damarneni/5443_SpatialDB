@@ -2,11 +2,11 @@
 
 |    |Possible|Earned|Category     | Objective                                          | 
 |:--:|:------:|:----:|:-----------:|----------------------------------------------------|
-|![1]|    10  |   0   | OGR Command | Ogr command was present.                          |
-|![1]|    40  |   0   | OGR Command | Ogr command was syntactically correct.            |
+|![1]|    10  |   10   | OGR Command | Ogr command was present.                          |
+|![1]|    40  |   40   | OGR Command | Ogr command was syntactically correct.            |
 |    |        |      |             |                                                    |
-|![1]|    10  |   0   | Table Structure | Table structure was present.                  |
-|![1]|    40  |   0   | Table Structure | Table structure was correct.                  |
+|![1]|    10  |   10   | Table Structure | Table structure was present.                  |
+|![1]|    40  |   40   | Table Structure | Table structure was correct.                  |
 |    | Total  |      |             |                                                    |
 |    |    100 |   **100**   | |     |
 
