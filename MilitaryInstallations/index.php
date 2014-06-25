@@ -141,7 +141,7 @@ if(sizeof($_POST)>0){
 	<form action="<?=$_SERVER['PHP_SELF']?>" method="POST">
 	Lat:<input type="text" name="lat" id="lat"><br>
 	Lng:<input type="text" name="lng" id="lng"><br>
-	Number of bases: <input type="text" name="base" id="base"> (Give number to display polygons)<br>
+	Number of bases: <input type="text" name="base" id="base"><br>
 	<input type="submit" name="submit" value="Get pos and base"> <br>
 	</div>
 	</form>
