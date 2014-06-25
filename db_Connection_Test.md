@@ -1,4 +1,4 @@
-### DB COnnection Test
+### DB Connection Test
 
 ### My PHP test code to connect Database
 
