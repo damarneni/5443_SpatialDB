@@ -1,0 +1,11 @@
+An SQL error occured.\n
+    (SELECT  
+    AsWKB(EQ.SHAPE) AS wkb
+    FROM earth_quakes AS EQ, state_borders AS SB
+	WHERE CONTAINS (SB.SHAPE, EQ.SHAPE)  
+	AND state = (SELECT state FROM `state_borders` WHERE CONTAINS (SHAPE, POINT(-117.0703125, 38.548165423047))))
+	union
+	(SELECT asWKB(SHAPE) as wkb
+		FROM state_borders A 
+		WHERE CONTAINS(A.SHAPE,POINT(-117.0703125, 38.548165423047)))
+		LIMIT 890, 920
