@@ -5,7 +5,7 @@
  * Author:  Bryan R. McBride, GISP
  * Contact: bryanmcbride.com
  * GitHub:  https://github.com/bmcbride/PHP-Database-GeoJSON
- * Edited:  By Terry Griffin, organized as a CLASS for insructional purposes.
+ * Edited:  By Dinesh Amarneni.
  */
 
 # Include required geoPHP library and define wkb_to_json function
